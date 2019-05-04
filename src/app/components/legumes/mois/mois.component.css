@@ -1,0 +1,25 @@
+.mois {
+    position: absolute;
+    width: 100vw;
+    top: 5vh;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(233, 27, 198);
+    height: 5vh;
+}
+
+a {
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courgette', cursive;
+    line-height: 5vh;
+}
+
+@media screen and (min-width: 1000px) {
+    a {
+        margin-right: 5%;
+    }
+}
