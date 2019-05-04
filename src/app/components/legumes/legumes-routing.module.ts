@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MoisComponent } from './mois/mois.component';
+import { HomeLegumesComponent } from './home-legumes/home-legumes.component';
 import { LegumesJanvierComponent } from './legumes-janvier/legumes-janvier.component';
 import { LegumesFevrierComponent } from './legumes-fevrier/legumes-fevrier.component';
 import { LegumesMarsComponent } from './legumes-mars/legumes-mars.component';
@@ -15,7 +15,7 @@ import { LegumesNovembreComponent } from './legumes-novembre/legumes-novembre.co
 import { LegumesDecembreComponent } from './legumes-decembre/legumes-decembre.component';
 
 const legumesRoutes: Routes = [
-  { path: 'legumes', component: MoisComponent },
+  { path: 'legumes', component: HomeLegumesComponent },
   { path: 'legumes/janvier', component: LegumesJanvierComponent },
   { path: 'legumes/fevrier', component: LegumesFevrierComponent },
   { path: 'legumes/mars', component: LegumesMarsComponent },

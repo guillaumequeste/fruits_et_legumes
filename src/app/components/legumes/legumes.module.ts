@@ -14,6 +14,7 @@ import { LegumesSeptembreComponent } from './legumes-septembre/legumes-septembre
 import { LegumesOctobreComponent } from './legumes-octobre/legumes-octobre.component';
 import { LegumesNovembreComponent } from './legumes-novembre/legumes-novembre.component';
 import { LegumesDecembreComponent } from './legumes-decembre/legumes-decembre.component';
+import { HomeLegumesComponent } from './home-legumes/home-legumes.component';
 
 @NgModule({
     declarations: [
@@ -30,6 +31,7 @@ import { LegumesDecembreComponent } from './legumes-decembre/legumes-decembre.co
         LegumesOctobreComponent,
         LegumesNovembreComponent,
         LegumesDecembreComponent,
+        HomeLegumesComponent,
     ],
   imports: [
     CommonModule,

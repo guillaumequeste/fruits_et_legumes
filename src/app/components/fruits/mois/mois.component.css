@@ -17,9 +17,3 @@ a {
     font-family: 'Courgette', cursive;
     line-height: 5vh;
 }
-
-@media screen and (min-width: 1000px) {
-    a {
-        margin-right: 5%;
-    }
-}

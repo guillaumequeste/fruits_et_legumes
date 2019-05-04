@@ -14,6 +14,7 @@ import { FruitsSeptembreComponent } from './fruits-septembre/fruits-septembre.co
 import { FruitsOctobreComponent } from './fruits-octobre/fruits-octobre.component';
 import { FruitsNovembreComponent } from './fruits-novembre/fruits-novembre.component';
 import { FruitsDecembreComponent } from './fruits-decembre/fruits-decembre.component';
+import { HomeFruitsComponent } from './home-fruits/home-fruits.component';
 
 @NgModule({
     declarations: [
@@ -30,6 +31,7 @@ import { FruitsDecembreComponent } from './fruits-decembre/fruits-decembre.compo
         FruitsOctobreComponent,
         FruitsNovembreComponent,
         FruitsDecembreComponent,
+        HomeFruitsComponent,
     ],
   imports: [
     CommonModule,
