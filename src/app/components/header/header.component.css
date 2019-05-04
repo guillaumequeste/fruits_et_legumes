@@ -1,0 +1,26 @@
+nav {
+    display: inline-flex;
+    height: 5vh;
+    width: 100vw;
+    background-color: purple;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    line-height: 5vh;
+    font-family: 'Courgette', cursive;
+}
+
+.accueil {
+    width: 33%;
+    padding-left: 5%;
+}
+
+.fruits {
+    width: 33%;
+}
+
+.legumes {
+    width: 33%;
+}
