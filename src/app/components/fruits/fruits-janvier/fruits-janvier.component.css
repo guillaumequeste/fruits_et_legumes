@@ -8,6 +8,20 @@ main {
 }
 
 
+/* branche */
+
+#branche2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#imgbranche2 {
+    width: 400px;
+    height: 300px;
+}
+
+
 /* https://codepen.io/codeconvey/pen/xRzQay */
 
 .snowflake {
@@ -143,14 +157,14 @@ main {
     animation-delay: 3s, 1.5s
 }
 
-
-/* fruits */
-
 .titre {
     text-align: center;
     font-family: 'Sacramento', cursive;
     font-size: 3em;
 }
+
+
+/* fruits */
 
 .alignement {
     display: flex;

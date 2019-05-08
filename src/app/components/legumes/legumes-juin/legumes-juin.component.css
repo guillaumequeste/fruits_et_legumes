@@ -3,7 +3,7 @@ main {
     top: 10vh;
     min-height: 90vh;
     width: 100vw;
-    background-color: rgb(60, 231, 111);
+    background-color: rgb(140, 198, 252);
     margin: 0;
 }
 
@@ -12,6 +12,23 @@ main {
     font-family: 'Sacramento', cursive;
     font-size: 3em;
 }
+
+
+/* branche */
+
+#branche {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#imgbranche {
+    width: 400px;
+    height: 300px;
+}
+
+
+/* legumes */
 
 .alignement {
     display: flex;

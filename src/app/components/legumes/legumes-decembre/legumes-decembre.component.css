@@ -3,7 +3,7 @@ main {
     top: 10vh;
     min-height: 90vh;
     width: 100vw;
-    background-color: rgb(238, 146, 71);
+    background-color: rgb(207, 142, 98);
     margin: 0;
 }
 
@@ -12,6 +12,23 @@ main {
     font-family: 'Sacramento', cursive;
     font-size: 3em;
 }
+
+
+/* feuilles */
+
+#feuilles {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#imgfeuilles {
+    width: 200px;
+    height: 300px;
+}
+
+
+/* legumes */
 
 .alignement {
     display: flex;
