@@ -3,7 +3,7 @@ main {
     top: 10vh;
     min-height: 90vh;
     width: 100vw;
-    background-color: rgb(78, 166, 248);
+    background-color: rgb(140, 198, 252);
     margin: 0;
 }
 
@@ -12,6 +12,24 @@ main {
     font-family: 'Sacramento', cursive;
     font-size: 3em;
 }
+
+
+/* https://skribascode.fr */
+
+#sun {
+    position: absolute;
+    top: 2em;
+    left: 4em;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid #FFFACD;
+    box-shadow: #FFFACD 0px 0px 100px 20px;
+}
+
+
+/* fruits */
 
 .alignement {
     display: flex;
