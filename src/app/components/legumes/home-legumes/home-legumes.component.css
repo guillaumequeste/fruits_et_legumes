@@ -11,13 +11,8 @@
     margin: auto;
 }
 
-.deuxmois {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 5vh;
-}
-
 .bloc {
+    margin-top: 5vh;
     margin-right: 15vw;
     width: 200px;
     height: 50px;
