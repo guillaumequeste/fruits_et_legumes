@@ -24,3 +24,13 @@ a {
 .legumes {
     width: 33%;
 }
+
+span {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+    span {
+        visibility: visible;
+    }
+}
