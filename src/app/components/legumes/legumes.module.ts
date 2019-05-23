@@ -15,6 +15,20 @@ import { LegumesOctobreComponent } from './legumes-octobre/legumes-octobre.compo
 import { LegumesNovembreComponent } from './legumes-novembre/legumes-novembre.component';
 import { LegumesDecembreComponent } from './legumes-decembre/legumes-decembre.component';
 import { HomeLegumesComponent } from './home-legumes/home-legumes.component';
+import { AilComponent } from './ail/ail.component';
+import { CapreComponent } from './capre/capre.component';
+import { CarotteComponent } from './carotte/carotte.component';
+import { CeleriComponent } from './celeri/celeri.component';
+import { ChampignonDeParisComponent } from './champignon-de-paris/champignon-de-paris.component';
+import { ChouComponent } from './chou/chou.component';
+import { ChouFleurComponent } from './chou-fleur/chou-fleur.component';
+import { EchaloteComponent } from './echalote/echalote.component';
+import { EndiveComponent } from './endive/endive.component';
+import { EpinardComponent } from './epinard/epinard.component';
+import { MacheComponent } from './mache/mache.component';
+import { OignonComponent } from './oignon/oignon.component';
+import { PoireauComponent } from './poireau/poireau.component';
+import { PommeDeTerreComponent } from './pomme-de-terre/pomme-de-terre.component';
 
 @NgModule({
     declarations: [
@@ -32,6 +46,20 @@ import { HomeLegumesComponent } from './home-legumes/home-legumes.component';
         LegumesNovembreComponent,
         LegumesDecembreComponent,
         HomeLegumesComponent,
+        AilComponent,
+        CapreComponent,
+        CarotteComponent,
+        CeleriComponent,
+        ChampignonDeParisComponent,
+        ChouComponent,
+        ChouFleurComponent,
+        EchaloteComponent,
+        EndiveComponent,
+        EpinardComponent,
+        MacheComponent,
+        OignonComponent,
+        PoireauComponent,
+        PommeDeTerreComponent,
     ],
   imports: [
     CommonModule,

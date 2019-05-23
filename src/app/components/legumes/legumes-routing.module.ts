@@ -13,6 +13,20 @@ import { LegumesSeptembreComponent } from './legumes-septembre/legumes-septembre
 import { LegumesOctobreComponent } from './legumes-octobre/legumes-octobre.component';
 import { LegumesNovembreComponent } from './legumes-novembre/legumes-novembre.component';
 import { LegumesDecembreComponent } from './legumes-decembre/legumes-decembre.component';
+import { AilComponent } from './ail/ail.component';
+import { CapreComponent } from './capre/capre.component';
+import { CarotteComponent } from './carotte/carotte.component';
+import { CeleriComponent } from './celeri/celeri.component';
+import { ChampignonDeParisComponent } from './champignon-de-paris/champignon-de-paris.component';
+import { ChouComponent } from './chou/chou.component';
+import { ChouFleurComponent } from './chou-fleur/chou-fleur.component';
+import { EchaloteComponent } from './echalote/echalote.component';
+import { EndiveComponent } from './endive/endive.component';
+import { EpinardComponent } from './epinard/epinard.component';
+import { MacheComponent } from './mache/mache.component';
+import { OignonComponent } from './oignon/oignon.component';
+import { PoireauComponent } from './poireau/poireau.component';
+import { PommeDeTerreComponent } from './pomme-de-terre/pomme-de-terre.component';
 
 const legumesRoutes: Routes = [
   { path: 'legumes', component: HomeLegumesComponent },
@@ -28,6 +42,20 @@ const legumesRoutes: Routes = [
   { path: 'legumes/octobre', component: LegumesOctobreComponent },
   { path: 'legumes/novembre', component: LegumesNovembreComponent },
   { path: 'legumes/decembre', component: LegumesDecembreComponent },
+  { path: 'legumes/ail', component: AilComponent },
+  { path: 'legumes/capre', component: CapreComponent },
+  { path: 'legumes/carotte', component: CarotteComponent },
+  { path: 'legumes/celeri', component: CeleriComponent },
+  { path: 'legumes/champignon_de_paris', component: ChampignonDeParisComponent },
+  { path: 'legumes/chou', component: ChouComponent },
+  { path: 'legumes/chou-fleur', component: ChouFleurComponent },
+  { path: 'legumes/echalote', component: EchaloteComponent },
+  { path: 'legumes/endive', component: EndiveComponent },
+  { path: 'legumes/epinard', component: EpinardComponent },
+  { path: 'legumes/mache', component: MacheComponent },
+  { path: 'legumes/oignon', component: OignonComponent },
+  { path: 'legumes/poireau', component: PoireauComponent },
+  { path: 'legumes/pomme_de_terre', component: PommeDeTerreComponent },
 ];
 
 @NgModule({
