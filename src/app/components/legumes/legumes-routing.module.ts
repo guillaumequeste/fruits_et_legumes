@@ -27,6 +27,28 @@ import { MacheComponent } from './mache/mache.component';
 import { OignonComponent } from './oignon/oignon.component';
 import { PoireauComponent } from './poireau/poireau.component';
 import { PommeDeTerreComponent } from './pomme-de-terre/pomme-de-terre.component';
+import { BrocoliComponent } from './brocoli/brocoli.component';
+import { NavetComponent } from './navet/navet.component';
+import { RadisComponent } from './radis/radis.component';
+import { AspergeComponent } from './asperge/asperge.component';
+import { LaitueComponent } from './laitue/laitue.component';
+import { PersilComponent } from './persil/persil.component';
+import { BasilicComponent } from './basilic/basilic.component';
+import { ConcombreComponent } from './concombre/concombre.component';
+import { CourgetteComponent } from './courgette/courgette.component';
+import { FenouilComponent } from './fenouil/fenouil.component';
+import { FeveComponent } from './feve/feve.component';
+import { HaricotVertComponent } from './haricot-vert/haricot-vert.component';
+import { MentheComponent } from './menthe/menthe.component';
+import { PetitPoisComponent } from './petit-pois/petit-pois.component';
+import { PoisChicheComponent } from './pois-chiche/pois-chiche.component';
+import { RhubarbeComponent } from './rhubarbe/rhubarbe.component';
+import { ArtichautComponent } from './artichaut/artichaut.component';
+import { AubergineComponent } from './aubergine/aubergine.component';
+import { PoivronComponent } from './poivron/poivron.component';
+import { PimentComponent } from './piment/piment.component';
+import { PotironComponent } from './potiron/potiron.component';
+import { CepeComponent } from './cepe/cepe.component';
 
 const legumesRoutes: Routes = [
   { path: 'legumes', component: HomeLegumesComponent },
@@ -43,19 +65,41 @@ const legumesRoutes: Routes = [
   { path: 'legumes/novembre', component: LegumesNovembreComponent },
   { path: 'legumes/decembre', component: LegumesDecembreComponent },
   { path: 'legumes/ail', component: AilComponent },
+  { path: 'legumes/artichaut', component: ArtichautComponent },
+  { path: 'legumes/asperge', component: AspergeComponent },
+  { path: 'legumes/aubergine', component: AubergineComponent },
+  { path: 'legumes/basilic', component: BasilicComponent },
+  { path: 'legumes/brocoli', component: BrocoliComponent },
   { path: 'legumes/capre', component: CapreComponent },
   { path: 'legumes/carotte', component: CarotteComponent },
   { path: 'legumes/celeri', component: CeleriComponent },
+  { path: 'legumes/cepe', component: CepeComponent },
   { path: 'legumes/champignon_de_paris', component: ChampignonDeParisComponent },
   { path: 'legumes/chou', component: ChouComponent },
   { path: 'legumes/chou-fleur', component: ChouFleurComponent },
+  { path: 'legumes/concombre', component: ConcombreComponent },
+  { path: 'legumes/courgette', component: CourgetteComponent },
   { path: 'legumes/echalote', component: EchaloteComponent },
   { path: 'legumes/endive', component: EndiveComponent },
   { path: 'legumes/epinard', component: EpinardComponent },
+  { path: 'legumes/fenouil', component: FenouilComponent },
+  { path: 'legumes/feve', component: FeveComponent },
+  { path: 'legumes/haricot_vert', component: HaricotVertComponent },
+  { path: 'legumes/laitue', component: LaitueComponent },
   { path: 'legumes/mache', component: MacheComponent },
+  { path: 'legumes/menthe', component: MentheComponent },
+  { path: 'legumes/navet', component: NavetComponent },
   { path: 'legumes/oignon', component: OignonComponent },
+  { path: 'legumes/persil', component: PersilComponent },
+  { path: 'legumes/petit_pois', component: PetitPoisComponent },
+  { path: 'legumes/piment', component: PimentComponent },
   { path: 'legumes/poireau', component: PoireauComponent },
+  { path: 'legumes/pois_chiche', component: PoisChicheComponent },
+  { path: 'legumes/poivron', component: PoivronComponent },
   { path: 'legumes/pomme_de_terre', component: PommeDeTerreComponent },
+  { path: 'legumes/potiron', component: PotironComponent },
+  { path: 'legumes/radis', component: RadisComponent },
+  { path: 'legumes/rhubarbe', component: RhubarbeComponent },
 ];
 
 @NgModule({

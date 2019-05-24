@@ -1,0 +1,11 @@
+.comestible {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: rgb(141, 233, 141);
+}
+
+.moisComestible {
+    margin: auto;
+}

@@ -29,6 +29,28 @@ import { MacheComponent } from './mache/mache.component';
 import { OignonComponent } from './oignon/oignon.component';
 import { PoireauComponent } from './poireau/poireau.component';
 import { PommeDeTerreComponent } from './pomme-de-terre/pomme-de-terre.component';
+import { BrocoliComponent } from './brocoli/brocoli.component';
+import { NavetComponent } from './navet/navet.component';
+import { RadisComponent } from './radis/radis.component';
+import { AspergeComponent } from './asperge/asperge.component';
+import { LaitueComponent } from './laitue/laitue.component';
+import { PersilComponent } from './persil/persil.component';
+import { BasilicComponent } from './basilic/basilic.component';
+import { ConcombreComponent } from './concombre/concombre.component';
+import { CourgetteComponent } from './courgette/courgette.component';
+import { FenouilComponent } from './fenouil/fenouil.component';
+import { FeveComponent } from './feve/feve.component';
+import { HaricotVertComponent } from './haricot-vert/haricot-vert.component';
+import { MentheComponent } from './menthe/menthe.component';
+import { PetitPoisComponent } from './petit-pois/petit-pois.component';
+import { PoisChicheComponent } from './pois-chiche/pois-chiche.component';
+import { RhubarbeComponent } from './rhubarbe/rhubarbe.component';
+import { ArtichautComponent } from './artichaut/artichaut.component';
+import { AubergineComponent } from './aubergine/aubergine.component';
+import { PoivronComponent } from './poivron/poivron.component';
+import { PimentComponent } from './piment/piment.component';
+import { PotironComponent } from './potiron/potiron.component';
+import { CepeComponent } from './cepe/cepe.component';
 
 @NgModule({
     declarations: [
@@ -60,6 +82,28 @@ import { PommeDeTerreComponent } from './pomme-de-terre/pomme-de-terre.component
         OignonComponent,
         PoireauComponent,
         PommeDeTerreComponent,
+        BrocoliComponent,
+        NavetComponent,
+        RadisComponent,
+        AspergeComponent,
+        LaitueComponent,
+        PersilComponent,
+        BasilicComponent,
+        ConcombreComponent,
+        CourgetteComponent,
+        FenouilComponent,
+        FeveComponent,
+        HaricotVertComponent,
+        MentheComponent,
+        PetitPoisComponent,
+        PoisChicheComponent,
+        RhubarbeComponent,
+        ArtichautComponent,
+        AubergineComponent,
+        PoivronComponent,
+        PimentComponent,
+        PotironComponent,
+        CepeComponent,
     ],
   imports: [
     CommonModule,
