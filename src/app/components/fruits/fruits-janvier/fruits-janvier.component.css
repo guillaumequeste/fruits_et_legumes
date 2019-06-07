@@ -159,7 +159,7 @@ main {
 
 .titre {
     text-align: center;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Sacramento', cursive, sans-serif;
     font-size: 3em;
 }
 
@@ -198,6 +198,6 @@ img {
 
 .nom {
     text-align: center;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy', cursive, sans-serif;
     font-size: 1.5em;
 }

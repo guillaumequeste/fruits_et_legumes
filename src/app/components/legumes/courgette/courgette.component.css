@@ -6,6 +6,15 @@
     background-color: rgb(141, 233, 141);
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Sacramento', cursive, sans-serif;
+    font-size: 3em;
+    margin: 0;
+}
+
 .moisComestible {
     margin: auto;
+    font-family: 'Satisfy', cursive, sans-serif;
+    font-size: 1.5em;
 }
