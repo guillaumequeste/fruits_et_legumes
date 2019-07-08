@@ -4,11 +4,15 @@ import { AccueilComponent } from './components/accueil/accueil.component';
 import { ErreurComponent } from './components/erreur/erreur.component';
 import { HomeFruitsComponent } from './components/fruits/home-fruits/home-fruits.component';
 import { HomeLegumesComponent } from './components/legumes/home-legumes/home-legumes.component';
+import { ListeComponent } from './components/liste/liste.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
   { path: 'fruits', component: HomeFruitsComponent },
   { path: 'legumes', component: HomeLegumesComponent },
+  { path: 'liste', component: ListeComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: '**', component: ErreurComponent }
 ];

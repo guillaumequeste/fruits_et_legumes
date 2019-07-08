@@ -8,13 +8,17 @@ import { ErreurComponent } from './components/erreur/erreur.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FruitsModule } from './components/fruits/fruits.module';
 import { LegumesModule } from './components/legumes/legumes.module';
+import { ListeComponent } from './components/liste/liste.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
     ErreurComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

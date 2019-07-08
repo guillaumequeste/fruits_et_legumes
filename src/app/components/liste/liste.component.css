@@ -1,0 +1,15 @@
+.bodyListe {
+    min-height: 95vh;
+    background-color: rgb(241, 240, 145);
+    display: flex;
+    flex-direction: column;
+}
+
+.aliment {
+    margin: auto;
+    font-family: 'Sacramento', cursive, sans-serif;
+    text-decoration: none;
+    font-size: 2em;
+    color: purple;
+    font-size: 2em;
+}
