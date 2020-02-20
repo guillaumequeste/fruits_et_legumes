@@ -13,8 +13,9 @@ const routes: Routes = [
   { path: 'legumes', component: HomeLegumesComponent },
   { path: 'liste', component: ListeComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'notfound', component: ErreurComponent},
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
-  { path: '**', component: ErreurComponent }
+  { path: '**', redirectTo: '/notfound' }
 ];
 
 @NgModule({

@@ -1,0 +1,9 @@
+.erreur {
+    background-color: orange;
+    height: 95vh;
+    display: flex;
+}
+
+.msgErreur {
+    margin: auto;
+}
