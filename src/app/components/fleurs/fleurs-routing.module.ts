@@ -16,6 +16,12 @@ import { FleursDecembreComponent } from './fleurs-decembre/fleurs-decembre.compo
 import { JasminComponent } from './jasmin/jasmin.component';
 import { MimosaComponent } from './mimosa/mimosa.component';
 import { CameliaComponent } from './camelia/camelia.component';
+import { TulipeComponent } from './tulipe/tulipe.component';
+import { FreesiaComponent } from './freesia/freesia.component';
+import { OrchideeComponent } from './orchidee/orchidee.component';
+import { AnemoneComponent } from './anemone/anemone.component';
+import { JacintheComponent } from './jacinthe/jacinthe.component';
+import { RenonculeComponent } from './renoncule/renoncule.component';
 
 
 
@@ -33,9 +39,15 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/octobre', component: FleursOctobreComponent },
   { path: 'fleurs/novembre', component: FleursNovembreComponent },
   { path: 'fleurs/decembre', component: FleursDecembreComponent },
+  { path: 'fleurs/anemone', component: AnemoneComponent },
   { path: 'fleurs/camelia', component: CameliaComponent },
+  { path: 'fleurs/freesia', component: FreesiaComponent },
+  { path: 'fleurs/jacinthe', component: JacintheComponent },
   { path: 'fleurs/jasmin', component: JasminComponent },
-  { path: 'fleurs/mimosa', component: MimosaComponent }
+  { path: 'fleurs/mimosa', component: MimosaComponent },
+  { path: 'fleurs/orchidee', component: OrchideeComponent },
+  { path: 'fleurs/renoncule', component: RenonculeComponent },
+  { path: 'fleurs/tulipe', component: TulipeComponent }
 ];
 
 @NgModule({

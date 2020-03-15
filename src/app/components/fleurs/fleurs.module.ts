@@ -19,6 +19,12 @@ import { FleursDecembreComponent } from './fleurs-decembre/fleurs-decembre.compo
 import { JasminComponent } from './jasmin/jasmin.component';
 import { MimosaComponent } from './mimosa/mimosa.component';
 import { CameliaComponent } from './camelia/camelia.component';
+import { TulipeComponent } from './tulipe/tulipe.component';
+import { FreesiaComponent } from './freesia/freesia.component';
+import { OrchideeComponent } from './orchidee/orchidee.component';
+import { AnemoneComponent } from './anemone/anemone.component';
+import { JacintheComponent } from './jacinthe/jacinthe.component';
+import { RenonculeComponent } from './renoncule/renoncule.component';
 
 
 @NgModule({
@@ -39,7 +45,13 @@ import { CameliaComponent } from './camelia/camelia.component';
         FleursDecembreComponent,
         JasminComponent,
         MimosaComponent,
-        CameliaComponent
+        CameliaComponent,
+        TulipeComponent,
+        FreesiaComponent,
+        OrchideeComponent,
+        AnemoneComponent,
+        JacintheComponent,
+        RenonculeComponent
     ],
   imports: [
     CommonModule,
