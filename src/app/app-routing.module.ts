@@ -6,11 +6,13 @@ import { HomeFruitsComponent } from './components/fruits/home-fruits/home-fruits
 import { HomeLegumesComponent } from './components/legumes/home-legumes/home-legumes.component';
 import { ListeComponent } from './components/liste/liste.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { HomeFleursComponent } from './components/fleurs/home-fleurs/home-fleurs.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
   { path: 'fruits', component: HomeFruitsComponent },
   { path: 'legumes', component: HomeLegumesComponent },
+  { path: 'fleurs', component: HomeFleursComponent },
   { path: 'liste', component: ListeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'notfound', component: ErreurComponent},

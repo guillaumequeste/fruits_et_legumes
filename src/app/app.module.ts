@@ -10,6 +10,7 @@ import { FruitsModule } from './components/fruits/fruits.module';
 import { LegumesModule } from './components/legumes/legumes.module';
 import { ListeComponent } from './components/liste/liste.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FleursModule } from './components/fleurs/fleurs.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ContactComponent } from './components/contact/contact.component';
     BrowserModule,
     FruitsModule,
     LegumesModule,
+    FleursModule,
     AppRoutingModule
   ],
   providers: [],

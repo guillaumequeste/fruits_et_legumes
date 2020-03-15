@@ -351,6 +351,22 @@ a {
     z-index: 2;
 }
 
+.fleurs {
+    margin-bottom: 10vh;
+    border: solid;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    height: 150px;
+    line-height: 150px;
+    width: 225px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(238, 90, 218);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    z-index: 2;
+}
+
 
 /* responsive */
 
@@ -363,6 +379,9 @@ a {
         left: 43vw;
     }
     .fruits {
+        margin-right: 10vw;
+    }
+    .legumes {
         margin-right: 10vw;
     }
 }
