@@ -55,6 +55,9 @@ import { LysComponent } from './lys/lys.component';
 import { MargueriteComponent } from './marguerite/marguerite.component';
 import { DahliaComponent } from './dahlia/dahlia.component';
 import { GlaieulComponent } from './glaieul/glaieul.component';
+import { FuchsiaComponent } from './fuchsia/fuchsia.component';
+import { LisianthusComponent } from './lisianthus/lisianthus.component';
+import { PoisDeSenteurComponent } from './pois-de-senteur/pois-de-senteur.component';
 
 
 
@@ -91,6 +94,7 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/eglantier', component: EglantierComponent },
   { path: 'fleurs/forsythia', component: ForsythiaComponent },
   { path: 'fleurs/freesia', component: FreesiaComponent },
+  { path: 'fleurs/fuchsia', component: FuchsiaComponent },
   { path: 'fleurs/genet', component: GenetComponent },
   { path: 'fleurs/gerbera', component: GerberaComponent },
   { path: 'fleurs/glaieul', component: GlaieulComponent },
@@ -99,6 +103,7 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/jasmin', component: JasminComponent },
   { path: 'fleurs/lavande', component: LavandeComponent },
   { path: 'fleurs/lilas', component: LilasComponent },
+  { path: 'fleurs/lisianthus', component: LisianthusComponent },
   { path: 'fleurs/lys', component: LysComponent },
   { path: 'fleurs/magnolia', component: MagnoliaComponent },
   { path: 'fleurs/marguerite', component: MargueriteComponent },
@@ -110,6 +115,7 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/paquerette', component: PaqueretteComponent },
   { path: 'fleurs/pensee', component: PenseeComponent },
   { path: 'fleurs/pivoine', component: PivoineComponent },
+  { path: 'fleurs/pois_de_senteur', component: PoisDeSenteurComponent },
   { path: 'fleurs/renoncule', component: RenonculeComponent },
   { path: 'fleurs/rose', component: RoseComponent },
   { path: 'fleurs/tulipe', component: TulipeComponent },

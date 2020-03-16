@@ -58,6 +58,9 @@ import { LysComponent } from './lys/lys.component';
 import { MargueriteComponent } from './marguerite/marguerite.component';
 import { DahliaComponent } from './dahlia/dahlia.component';
 import { GlaieulComponent } from './glaieul/glaieul.component';
+import { FuchsiaComponent } from './fuchsia/fuchsia.component';
+import { LisianthusComponent } from './lisianthus/lisianthus.component';
+import { PoisDeSenteurComponent } from './pois-de-senteur/pois-de-senteur.component';
 
 
 @NgModule({
@@ -117,7 +120,10 @@ import { GlaieulComponent } from './glaieul/glaieul.component';
         LysComponent,
         MargueriteComponent,
         DahliaComponent,
-        GlaieulComponent
+        GlaieulComponent,
+        FuchsiaComponent,
+        LisianthusComponent,
+        PoisDeSenteurComponent
     ],
   imports: [
     CommonModule,
