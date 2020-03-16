@@ -56,6 +56,8 @@ import { GerberaComponent } from './gerbera/gerbera.component';
 import { LavandeComponent } from './lavande/lavande.component';
 import { LysComponent } from './lys/lys.component';
 import { MargueriteComponent } from './marguerite/marguerite.component';
+import { DahliaComponent } from './dahlia/dahlia.component';
+import { GlaieulComponent } from './glaieul/glaieul.component';
 
 
 @NgModule({
@@ -113,7 +115,9 @@ import { MargueriteComponent } from './marguerite/marguerite.component';
         GerberaComponent,
         LavandeComponent,
         LysComponent,
-        MargueriteComponent
+        MargueriteComponent,
+        DahliaComponent,
+        GlaieulComponent
     ],
   imports: [
     CommonModule,

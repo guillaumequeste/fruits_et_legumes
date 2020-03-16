@@ -53,6 +53,8 @@ import { GerberaComponent } from './gerbera/gerbera.component';
 import { LavandeComponent } from './lavande/lavande.component';
 import { LysComponent } from './lys/lys.component';
 import { MargueriteComponent } from './marguerite/marguerite.component';
+import { DahliaComponent } from './dahlia/dahlia.component';
+import { GlaieulComponent } from './glaieul/glaieul.component';
 
 
 
@@ -85,11 +87,13 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/coquelicot', component: CoquelicotComponent },
   { path: 'fleurs/cosmos', component: CosmosComponent },
   { path: 'fleurs/craspedia', component: CraspediaComponent },
+  { path: 'fleurs/dahlia', component: DahliaComponent },
   { path: 'fleurs/eglantier', component: EglantierComponent },
   { path: 'fleurs/forsythia', component: ForsythiaComponent },
   { path: 'fleurs/freesia', component: FreesiaComponent },
   { path: 'fleurs/genet', component: GenetComponent },
   { path: 'fleurs/gerbera', component: GerberaComponent },
+  { path: 'fleurs/glaieul', component: GlaieulComponent },
   { path: 'fleurs/hortensia', component: HortensiaComponent },
   { path: 'fleurs/jacinthe', component: JacintheComponent },
   { path: 'fleurs/jasmin', component: JasminComponent },
