@@ -58,6 +58,8 @@ import { GlaieulComponent } from './glaieul/glaieul.component';
 import { FuchsiaComponent } from './fuchsia/fuchsia.component';
 import { LisianthusComponent } from './lisianthus/lisianthus.component';
 import { PoisDeSenteurComponent } from './pois-de-senteur/pois-de-senteur.component';
+import { GeraniumComponent } from './geranium/geranium.component';
+import { TournesolComponent } from './tournesol/tournesol.component';
 
 
 
@@ -97,6 +99,7 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/fuchsia', component: FuchsiaComponent },
   { path: 'fleurs/genet', component: GenetComponent },
   { path: 'fleurs/gerbera', component: GerberaComponent },
+  { path: 'fleurs/geranium', component: GeraniumComponent },
   { path: 'fleurs/glaieul', component: GlaieulComponent },
   { path: 'fleurs/hortensia', component: HortensiaComponent },
   { path: 'fleurs/jacinthe', component: JacintheComponent },
@@ -118,6 +121,7 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/pois_de_senteur', component: PoisDeSenteurComponent },
   { path: 'fleurs/renoncule', component: RenonculeComponent },
   { path: 'fleurs/rose', component: RoseComponent },
+  { path: 'fleurs/tournesol', component: TournesolComponent },
   { path: 'fleurs/tulipe', component: TulipeComponent },
   { path: 'fleurs/veronique', component: VeroniqueComponent }
 ];

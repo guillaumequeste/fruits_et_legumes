@@ -61,6 +61,8 @@ import { GlaieulComponent } from './glaieul/glaieul.component';
 import { FuchsiaComponent } from './fuchsia/fuchsia.component';
 import { LisianthusComponent } from './lisianthus/lisianthus.component';
 import { PoisDeSenteurComponent } from './pois-de-senteur/pois-de-senteur.component';
+import { GeraniumComponent } from './geranium/geranium.component';
+import { TournesolComponent } from './tournesol/tournesol.component';
 
 
 @NgModule({
@@ -123,7 +125,9 @@ import { PoisDeSenteurComponent } from './pois-de-senteur/pois-de-senteur.compon
         GlaieulComponent,
         FuchsiaComponent,
         LisianthusComponent,
-        PoisDeSenteurComponent
+        PoisDeSenteurComponent,
+        GeraniumComponent,
+        TournesolComponent
     ],
   imports: [
     CommonModule,
