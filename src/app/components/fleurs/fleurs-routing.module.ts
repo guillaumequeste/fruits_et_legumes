@@ -27,6 +27,13 @@ import { MagnoliaComponent } from './magnolia/magnolia.component';
 import { NarcisseComponent } from './narcisse/narcisse.component';
 import { PenseeComponent } from './pensee/pensee.component';
 import { PaqueretteComponent } from './paquerette/paquerette.component';
+import { AsterComponent } from './aster/aster.component';
+import { AzaleeComponent } from './azalee/azalee.component';
+import { LilasComponent } from './lilas/lilas.component';
+import { MuguetComponent } from './muguet/muguet.component';
+import { VeroniqueComponent } from './veronique/veronique.component';
+import { RoseComponent } from './rose/rose.component';
+import { PivoineComponent } from './pivoine/pivoine.component';
 
 
 
@@ -45,19 +52,26 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/novembre', component: FleursNovembreComponent },
   { path: 'fleurs/decembre', component: FleursDecembreComponent },
   { path: 'fleurs/anemone', component: AnemoneComponent },
+  { path: 'fleurs/aster', component: AsterComponent },
+  { path: 'fleurs/azalee', component: AzaleeComponent },
   { path: 'fleurs/camelia', component: CameliaComponent },
   { path: 'fleurs/forsythia', component: ForsythiaComponent },
   { path: 'fleurs/freesia', component: FreesiaComponent },
   { path: 'fleurs/jacinthe', component: JacintheComponent },
   { path: 'fleurs/jasmin', component: JasminComponent },
+  { path: 'fleurs/lilas', component: LilasComponent },
   { path: 'fleurs/magnolia', component: MagnoliaComponent },
   { path: 'fleurs/mimosa', component: MimosaComponent },
+  { path: 'fleurs/muguet', component: MuguetComponent },
   { path: 'fleurs/narcisse', component: NarcisseComponent },
   { path: 'fleurs/orchidee', component: OrchideeComponent },
   { path: 'fleurs/paquerette', component: PaqueretteComponent },
   { path: 'fleurs/pensee', component: PenseeComponent },
+  { path: 'fleurs/pivoine', component: PivoineComponent },
   { path: 'fleurs/renoncule', component: RenonculeComponent },
-  { path: 'fleurs/tulipe', component: TulipeComponent }
+  { path: 'fleurs/rose', component: RoseComponent },
+  { path: 'fleurs/tulipe', component: TulipeComponent },
+  { path: 'fleurs/veronique', component: VeroniqueComponent }
 ];
 
 @NgModule({

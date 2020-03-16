@@ -30,6 +30,13 @@ import { MagnoliaComponent } from './magnolia/magnolia.component';
 import { NarcisseComponent } from './narcisse/narcisse.component';
 import { PenseeComponent } from './pensee/pensee.component';
 import { PaqueretteComponent } from './paquerette/paquerette.component';
+import { AsterComponent } from './aster/aster.component';
+import { AzaleeComponent } from './azalee/azalee.component';
+import { LilasComponent } from './lilas/lilas.component';
+import { MuguetComponent } from './muguet/muguet.component';
+import { VeroniqueComponent } from './veronique/veronique.component';
+import { RoseComponent } from './rose/rose.component';
+import { PivoineComponent } from './pivoine/pivoine.component';
 
 
 @NgModule({
@@ -61,7 +68,14 @@ import { PaqueretteComponent } from './paquerette/paquerette.component';
         MagnoliaComponent,
         NarcisseComponent,
         PenseeComponent,
-        PaqueretteComponent
+        PaqueretteComponent,
+        AsterComponent,
+        AzaleeComponent,
+        LilasComponent,
+        MuguetComponent,
+        VeroniqueComponent,
+        RoseComponent,
+        PivoineComponent
     ],
   imports: [
     CommonModule,
