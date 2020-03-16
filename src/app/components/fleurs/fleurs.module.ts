@@ -37,6 +37,25 @@ import { MuguetComponent } from './muguet/muguet.component';
 import { VeroniqueComponent } from './veronique/veronique.component';
 import { RoseComponent } from './rose/rose.component';
 import { PivoineComponent } from './pivoine/pivoine.component';
+import { ArumComponent } from './arum/arum.component';
+import { BougainvillierComponent } from './bougainvillier/bougainvillier.component';
+import { BleuetComponent } from './bleuet/bleuet.component';
+import { CapucineComponent } from './capucine/capucine.component';
+import { CoquelicotComponent } from './coquelicot/coquelicot.component';
+import { ChevrefeuilleComponent } from './chevrefeuille/chevrefeuille.component';
+import { GenetComponent } from './genet/genet.component';
+import { OeilletComponent } from './oeillet/oeillet.component';
+import { ChardonComponent } from './chardon/chardon.component';
+import { ChrysanthemeComponent } from './chrysantheme/chrysantheme.component';
+import { CosmosComponent } from './cosmos/cosmos.component';
+import { CraspediaComponent } from './craspedia/craspedia.component';
+import { AnethComponent } from './aneth/aneth.component';
+import { HortensiaComponent } from './hortensia/hortensia.component';
+import { EglantierComponent } from './eglantier/eglantier.component';
+import { GerberaComponent } from './gerbera/gerbera.component';
+import { LavandeComponent } from './lavande/lavande.component';
+import { LysComponent } from './lys/lys.component';
+import { MargueriteComponent } from './marguerite/marguerite.component';
 
 
 @NgModule({
@@ -75,7 +94,26 @@ import { PivoineComponent } from './pivoine/pivoine.component';
         MuguetComponent,
         VeroniqueComponent,
         RoseComponent,
-        PivoineComponent
+        PivoineComponent,
+        ArumComponent,
+        BougainvillierComponent,
+        BleuetComponent,
+        CapucineComponent,
+        CoquelicotComponent,
+        ChevrefeuilleComponent,
+        GenetComponent,
+        OeilletComponent,
+        ChardonComponent,
+        ChrysanthemeComponent,
+        CosmosComponent,
+        CraspediaComponent,
+        AnethComponent,
+        HortensiaComponent,
+        EglantierComponent,
+        GerberaComponent,
+        LavandeComponent,
+        LysComponent,
+        MargueriteComponent
     ],
   imports: [
     CommonModule,
