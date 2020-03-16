@@ -25,6 +25,11 @@ import { OrchideeComponent } from './orchidee/orchidee.component';
 import { AnemoneComponent } from './anemone/anemone.component';
 import { JacintheComponent } from './jacinthe/jacinthe.component';
 import { RenonculeComponent } from './renoncule/renoncule.component';
+import { ForsythiaComponent } from './forsythia/forsythia.component';
+import { MagnoliaComponent } from './magnolia/magnolia.component';
+import { NarcisseComponent } from './narcisse/narcisse.component';
+import { PenseeComponent } from './pensee/pensee.component';
+import { PaqueretteComponent } from './paquerette/paquerette.component';
 
 
 @NgModule({
@@ -51,7 +56,12 @@ import { RenonculeComponent } from './renoncule/renoncule.component';
         OrchideeComponent,
         AnemoneComponent,
         JacintheComponent,
-        RenonculeComponent
+        RenonculeComponent,
+        ForsythiaComponent,
+        MagnoliaComponent,
+        NarcisseComponent,
+        PenseeComponent,
+        PaqueretteComponent
     ],
   imports: [
     CommonModule,

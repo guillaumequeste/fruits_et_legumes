@@ -22,6 +22,11 @@ import { OrchideeComponent } from './orchidee/orchidee.component';
 import { AnemoneComponent } from './anemone/anemone.component';
 import { JacintheComponent } from './jacinthe/jacinthe.component';
 import { RenonculeComponent } from './renoncule/renoncule.component';
+import { ForsythiaComponent } from './forsythia/forsythia.component';
+import { MagnoliaComponent } from './magnolia/magnolia.component';
+import { NarcisseComponent } from './narcisse/narcisse.component';
+import { PenseeComponent } from './pensee/pensee.component';
+import { PaqueretteComponent } from './paquerette/paquerette.component';
 
 
 
@@ -41,11 +46,16 @@ const fleursRoutes: Routes = [
   { path: 'fleurs/decembre', component: FleursDecembreComponent },
   { path: 'fleurs/anemone', component: AnemoneComponent },
   { path: 'fleurs/camelia', component: CameliaComponent },
+  { path: 'fleurs/forsythia', component: ForsythiaComponent },
   { path: 'fleurs/freesia', component: FreesiaComponent },
   { path: 'fleurs/jacinthe', component: JacintheComponent },
   { path: 'fleurs/jasmin', component: JasminComponent },
+  { path: 'fleurs/magnolia', component: MagnoliaComponent },
   { path: 'fleurs/mimosa', component: MimosaComponent },
+  { path: 'fleurs/narcisse', component: NarcisseComponent },
   { path: 'fleurs/orchidee', component: OrchideeComponent },
+  { path: 'fleurs/paquerette', component: PaqueretteComponent },
+  { path: 'fleurs/pensee', component: PenseeComponent },
   { path: 'fleurs/renoncule', component: RenonculeComponent },
   { path: 'fleurs/tulipe', component: TulipeComponent }
 ];

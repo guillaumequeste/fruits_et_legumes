@@ -14,11 +14,18 @@ main {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100vw;
 }
 
 #imgbranche2 {
-    width: 400px;
+    width: 100vw;
     height: 300px;
+}
+
+@media screen and (min-width: 640px) {
+    #imgbranche2 {
+        width: 400px;
+    }
 }
 
 
