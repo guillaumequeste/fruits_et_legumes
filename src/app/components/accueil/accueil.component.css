@@ -2,7 +2,7 @@
 
 main {
     display: flex;
-    height: 95vh;
+    min-height: 95vh;
     width: 100vw;
     z-index: 1;
     position: relative;
@@ -25,7 +25,7 @@ main {
 }
 
 .boutons {
-    margin: auto
+    margin: auto;
 }
 
 
